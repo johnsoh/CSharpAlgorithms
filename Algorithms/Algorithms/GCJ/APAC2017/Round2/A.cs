@@ -31,7 +31,7 @@ namespace Algorithms.GCJ.APAC2017.Round2
 
         private static int Solve(int L, int R)
         {
-            return Enumerable.Range(0, Math.Min(L, R)).Sum();
+            return Enumerable.Range(0, Math.Min(L, R + 1)).Sum();
         }
 
     }
